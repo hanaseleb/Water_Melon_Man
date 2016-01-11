@@ -12,5 +12,6 @@
   "hubot-misawa",
   "hubot-rss-reader",
   "hubot-weather-ja",
-  "hubot-heroku-keepalive"
+  "hubot-heroku-keepalive",
+  "hubot-cron"
 ]
