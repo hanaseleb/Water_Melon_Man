@@ -25,8 +25,12 @@ module.exports = (robot) ->
   #
   # lulz = ['lol', 'rofl', 'lmao']
   #
-  # robot.respond /lulz/i, (res) ->
-  #   res.send res.random lulz
+  robot.respond /いつもの/i, (res) ->
+    res.send res.reply "これですか？
+    ```
+    練習メニュー共有 => https://docs.google.com/spreadsheets/d/1MOZu-Psny5FkR5St8pwdBzk8mBLIkPyz8LSnuoHn91U/edit?usp=sharing
+    ```
+    "
   #
   # robot.topic (res) ->
   #   res.send "#{res.message.text}? That's a Paddlin'"
