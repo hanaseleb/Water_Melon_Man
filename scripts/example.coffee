@@ -45,9 +45,9 @@ module.exports = (robot) ->
     ```
     ```
     ●3Promises
-    * Be a Challenger -過去に縛られずチャレンジ！-
-    * Tough Choice -キツイことを進んでやろう！-
-    * Gentlemanship -気高い集団に！-
+    * Be a Challenger -過去に縛られずチャレンジ！-  
+    * Tough Choice -キツイことを進んでやろう！-  
+    * Gentlemanship -気高い集団に！-  
     ```
     ```
     ●5Rules
