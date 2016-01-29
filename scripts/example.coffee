@@ -42,12 +42,14 @@ module.exports = (robot) ->
     ```
     ●SLOGAN
     CHALLENGE
-
+    ```
+    ```
     ●3Promises
     * Be a Challenger -過去に縛られずチャレンジ！-
     * Tough Choice -キツイことを進んでやろう！-
     * Gentlemanship -気高い集団に！-
-
+    ```
+    ```
     ●5Rules
     Team
     1. 道具を大切に。
@@ -62,7 +64,8 @@ module.exports = (robot) ->
     3. ゴールラインまで全速力で走り切る。
     4. 弱みを見せるな。下を向く、膝に手を突く、弱音を吐くなどもってのほか。
     5. 移動はジョグ。白い歯は見せない。緊張感ある練習が練習密度を濃くする。
-
+    ```
+    ```
     ●7Basics
     Go Low & Standing Rugby
 
