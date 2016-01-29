@@ -39,15 +39,21 @@ module.exports = (robot) ->
     "
   robot.respond /:basic/i, (res) ->
     res.send res.reply "覚えてるか？
-    ```
-    ●SLOGAN
-    CHALLENGE
-    ```
-    ●3Promises
-    `Be a Challenger -過去に縛られずチャレンジ！-`  
-    `Tough Choice -キツイことを進んでやろう！-`  
-    `Gentlemanship -気高い集団に！-` 
-    ```
+```
+●SLOGAN
+
+CHALLENGE
+```
+●3Promises
+
+Be a Challenger -過去に縛られずチャレンジ！-
+
+Tough Choice -キツイことを進んでやろう！-
+
+Gentlemanship -気高い集団に！-
+
+```
+```
     ●5Rules
     Team
     1. 道具を大切に。
