@@ -25,10 +25,54 @@ module.exports = (robot) ->
   #
   # lulz = ['lol', 'rofl', 'lmao']
   #
-  robot.respond /いつもの/i, (res) ->
+  robot.respond /:session/i, (res) ->
     res.send res.reply "これですか？
     ```
-    練習メニュー共有 => https://docs.google.com/spreadsheets/d/1MOZu-Psny5FkR5St8pwdBzk8mBLIkPyz8LSnuoHn91U/edit?usp=sharing
+    練習メニュー共有 => https://drive.google.com/open?id=1MOZu-Psny5FkR5St8pwdBzk8mBLIkPyz8LSnuoHn91U
+    ```
+    "
+  robot.respond /:schedule/i, (res) ->
+    res.send res.reply "これだろ？
+    ```
+   スケジュール共有 => https://drive.google.com/open?id=1dBNyS1adAcmk--_ZS3oAHaOKLKX3Eq6lQFyBt1H478Y
+    ```
+    "
+  robot.respond /:basic/i, (res) ->
+    res.send res.reply "覚えてるか？
+    ```
+    ●SLOGAN
+    CHALLENGE
+
+    ●3Promises
+    * Be a Challenger -過去に縛られずチャレンジ！-
+    * Tough Choice -キツイことを進んでやろう！-
+    * Gentlemanship -気高い集団に！-
+
+    ●5Rules
+    Team
+    1. 道具を大切に。
+    2. 自分でできることは必ず自分でやる。
+    3. 関係するすべての人に感謝の気持ちを。特にレフリー、対戦相手には最大限の敬意を！挨拶は自発的に大きな声で！
+    4. 服装の乱れは心の乱れ！乱れがあればすぐに正す。
+    5. 自己犠牲の精神を持ち続ける。
+
+    Practice
+    1. 練習前にアップは完了させ、心身ともにいつでも試合に臨める状態に。
+    2. イーブンボールは大チャンス。捨て身のセービングで必ずボール確保を。
+    3. ゴールラインまで全速力で走り切る。
+    4. 弱みを見せるな。下を向く、膝に手を突く、弱音を吐くなどもってのほか。
+    5. 移動はジョグ。白い歯は見せない。緊張感ある練習が練習密度を濃くする。
+
+    ●7Basics
+    Go Low & Standing Rugby
+
+    1. 対抗戦イチ低いプレー姿勢で体を張り続ける。
+    2. 倒れたら瞬時に立ちあがり３秒以内にアライメントする。
+    3. 確実にタックルライン上で仕留める膝下へのタックル。
+    4. 素早く確実なセービングでイーブンボールは全てチャンスに！
+    5. 対抗戦最速のヘッドスピード。
+    6. 80分間縦横無尽にグラウンドを走りまくるコンタクトフィットネス。
+    7. 決して折れない・諦めない心。揺るがない覚悟。
     ```
     "
   #
