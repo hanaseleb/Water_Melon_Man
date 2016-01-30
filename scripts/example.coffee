@@ -26,21 +26,21 @@ module.exports = (robot) ->
   # lulz = ['lol', 'rofl', 'lmao']
   #
   robot.respond /:session/i, (res) ->
-    res.send res.reply "これですか？
+    res.send res.reply "SessionPlan  
     ```
-    練習メニュー共有 => https://drive.google.com/open?id=1MOZu-Psny5FkR5St8pwdBzk8mBLIkPyz8LSnuoHn91U
+    https://drive.google.com/open?id=1MOZu-Psny5FkR5St8pwdBzk8mBLIkPyz8LSnuoHn91U
     ```
     "
   robot.respond /:schedule/i, (res) ->
-    res.send res.reply "これだろ？
+    res.send res.reply "Schedule
     ```
-   スケジュール共有 => https://drive.google.com/open?id=1dBNyS1adAcmk--_ZS3oAHaOKLKX3Eq6lQFyBt1H478Y
+    https://drive.google.com/open?id=1dBNyS1adAcmk--_ZS3oAHaOKLKX3Eq6lQFyBt1H478Y
     ```
     "
   robot.respond /:basic/i, (res) ->
-    res.send res.reply "覚えてるか？
+    res.send res.reply "Todai_Basics
     ```
-    Todai_Basics => https://www.evernote.com/l/AAq0ZDew8CFPH5cglRjsX1RguqPGNQnTScA
+    https://www.evernote.com/l/AAq0ZDew8CFPH5cglRjsX1RguqPGNQnTScA
     ```
 
     "
