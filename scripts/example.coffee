@@ -42,7 +42,12 @@ module.exports = (robot) ->
     ```
     https://www.evernote.com/l/AAq0ZDew8CFPH5cglRjsX1RguqPGNQnTScA
     ```
-
+    "
+  robot.respond /:emergency/i, (res) ->
+    res.send res.reply "Emergency Contact
+    ```
+    https://drive.google.com/open?id=1dUouWkqrjizYfFwyOHxNViQR_X8z0v07d9QLTRwYgd8
+    ```
     "
   #
   # robot.topic (res) ->
