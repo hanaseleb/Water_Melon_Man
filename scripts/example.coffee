@@ -49,6 +49,18 @@ module.exports = (robot) ->
     https://drive.google.com/open?id=1dUouWkqrjizYfFwyOHxNViQR_X8z0v07d9QLTRwYgd8
     ```
     "
+  robot.respond /:member/i, (res) ->
+    res.send res.reply "Member_List
+    ```
+    https://trello.com/b/WL4De2jZ/turfc-member
+    ```
+    "
+  robot.respond /:physical/i, (res) ->
+    res.send res.reply "Fundamental_Physical_Fitness
+    ```
+    https://drive.google.com/open?id=1FIAspywlF5cMkUq4BKP-t9QEsTIMjov1MTrtAtvnU1o
+    ```
+    "
   #
   # robot.topic (res) ->
   #   res.send "#{res.message.text}? That's a Paddlin'"
