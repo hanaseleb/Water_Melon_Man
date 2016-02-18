@@ -58,7 +58,7 @@ module.exports = (robot) ->
   robot.respond /:physical/i, (res) ->
     res.send res.reply "Fundamental_Physical_Fitness
     ```
-    https://drive.google.com/open?id=1FIAspywlF5cMkUq4BKP-t9QEsTIMjov1MTrtAtvnU1o
+    https://docs.google.com/spreadsheets/d/1FIAspywlF5cMkUq4BKP-t9QEsTIMjov1MTrtAtvnU1o/edit?usp=sharing
     ```
     "
   #
