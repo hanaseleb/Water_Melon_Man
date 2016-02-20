@@ -70,10 +70,10 @@ module.exports = (robot) ->
   leaveReplies = ['ばいばい><', 'さみしい！', 'またきてね^^']
   #
   robot.enter (res) ->
-    res.send res.random enterReplies
+    res.send res.reply res.random enterReplies
 
   robot.leave (res) ->
-    res.send res.random leaveReplies
+    res.send res.reply res.random leaveReplies
 
   robot.topic (msg) ->
     msg.send 'トピックが変更されました'
