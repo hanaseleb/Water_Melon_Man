@@ -14,5 +14,6 @@
   "hubot-weather-ja",
   "hubot-heroku-keepalive",
   "hubot-cron",
-  "hubot-zatsudan"
+  "hubot-zatsudan",
+  "hubot-docomochatter"
 ]
