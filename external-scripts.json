@@ -13,15 +13,5 @@
   "hubot-rss-reader",
   "hubot-weather-ja",
   "hubot-heroku-keepalive",
-  "hubot-cron",
-<<<<<<< HEAD
-<<<<<<< HEAD
-  "hubot-zatsudan",
-  "hubot-docomochatter"
-=======
-  "hubot-docomochatter",
->>>>>>> parent of f219df0... 微調整
-=======
-  "hubot-docomochatter",
->>>>>>> parent of f219df0... 微調整
+  "hubot-cron"
 ]
