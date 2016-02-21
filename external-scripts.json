@@ -13,6 +13,5 @@
   "hubot-rss-reader",
   "hubot-weather-ja",
   "hubot-heroku-keepalive",
-  "hubot-cron",
-  "hubot-shuzo"
+  "hubot-cron"
 ]
