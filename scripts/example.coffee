@@ -61,6 +61,17 @@ module.exports = (robot) ->
     https://docs.google.com/spreadsheets/d/1FIAspywlF5cMkUq4BKP-t9QEsTIMjov1MTrtAtvnU1o/edit?usp=sharing
     ```
     "
+
+  robot.respond /:discipline/i, (res) ->
+    res.send res.reply "TURFC Discipline
+    ```
+    https://docs.google.com/document/d/1IpgR192LHv6-NX26i1cyD4VXz-B3fLYoACzItKhUTJU/edit?usp=sharing
+    ```
+    "
+
+
+
+
   #
   # robot.topic (res) ->
   #   res.send "#{res.message.text}? That's a Paddlin'"
