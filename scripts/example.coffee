@@ -78,6 +78,8 @@ module.exports = (robot) ->
   robot.topic (msg) ->
     msg.send 'トピックが変更されました'
 
+  robot.respond /:physical/i, (res) ->
+    res.send res.reply res.random meigen
   #
   # answer = process.env.HUBOT_ANSWER_TO_THE_ULTIMATE_QUESTION_OF_LIFE_THE_UNIVERSE_AND_EVERYTHING
   #
