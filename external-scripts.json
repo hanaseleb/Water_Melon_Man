@@ -14,5 +14,6 @@
   "hubot-weather-ja",
   "hubot-heroku-keepalive",
   "hubot-trello",
+  "hubot-schedule",
   "hubot-cron"
 ]
